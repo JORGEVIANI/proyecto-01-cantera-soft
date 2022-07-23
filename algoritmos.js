@@ -39,3 +39,23 @@ while (respuesta != "no") {
     Desea seguir multiplicando? (no para salir)`);
 }
 alert(`Operacion finalizada`);
+
+// -------------------------------------------------------------
+
+// Ejercicio de resta
+numero1 = 5;
+numero2 = 25;
+
+function resta(num1, num2) {
+  return num1 - num2;
+}
+
+if (numero1 == numero2) {
+  resultado = 0;
+} else if (numero1 > numero2) {
+  resultado = resta(numero1, numero2); //
+} else {
+  resultado = resta(numero2, numero1);
+}
+
+console.log(`El valor de la resta es ${resultado}`);
