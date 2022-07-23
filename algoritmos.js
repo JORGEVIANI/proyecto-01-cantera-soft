@@ -59,3 +59,28 @@ if (numero1 == numero2) {
 }
 
 console.log(`El valor de la resta es ${resultado}`);
+
+// -------------------------------------------------------------
+
+// Ejercicio de division
+
+var dividendo = 25;
+var divisor = 5;
+
+function divicion(num1, num2) {
+  return num1 / num2;
+}
+
+if (dividendo == divisor) {
+  resultado = 1;
+} else if (divisor == 0) {
+  resultado = "error";
+} else {
+  resultado = divicion(dividendo, divisor);
+}
+
+if (resultado == "error") {
+  console.log("No se puede dividir por 0");
+} else {
+  console.log(`El valor de la division es ${resultado}`);
+}
